@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TP4 JS – Étape 4 : Espace Résumé</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="table_container">
+    <table border="1">
+      <thead>
+        <tr>
+          <th class="col_number">N°</th>
+          <th class="col_text">Nom</th>
+          <th class="col_text">Prénom</th>
+          <th class="col_text">Points</th>
+          <th class="col_chkbox">Sélection</th>
+        </tr>
+      </thead>
+      <tbody id="table_body">
+        <!-- lignes créées dynamiquement -->
+      </tbody>
+    </table>
+
+    <!-- 🌟 Étape 4 -->
+    <div id="resume_container">
+      <p id="nb_lignes">0 ligne(s)</p>
+      <p id="total_points">Total point(s) = 0</p>
+    </div>
+
+    <div id="container_btn">
+      <button id="btn_add">Ajouter</button>
+      <button id="btn_console">Console Tableau</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
